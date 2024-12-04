@@ -26,8 +26,8 @@ on:
   pull_request:
     paths:
     - '**'
-    - '!github/workflows/**'
-    - 'github/workflows/python-integration.yml'
+    - '!.github/workflows/**'
+    - '.github/workflows/python-integration.yml'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
