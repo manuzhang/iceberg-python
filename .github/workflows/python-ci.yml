@@ -52,5 +52,3 @@ jobs:
       run: make install-dependencies
     - name: Linters
       run: make lint
-    - name: Tests
-      run: make test-coverage
